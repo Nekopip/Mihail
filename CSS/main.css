@@ -4,13 +4,35 @@
 }
 
 .header {
-    padding: 10px 24px;
-    background: gray ;
+    width: 98%;
+    padding: 10px 50px 10px 0;
+    background: #28282A ;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    position: fixed;
 }
-.header p {
-    font-size: 30px;
+.header_logo{
+    font-family: Righteous;
+    padding-left: 110px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 10px;
+    font-size: 48px;
+    color: #fff;
+
+}
+.header_logo img{
+    border-radius: 15px;
+    height:46px;
+    width:42px;
+}
+header img{
+    width: 100%;
+}
+.header > p {
+    font-family: Righteous;
+    font-size: 20px;
     color: #fff;
 }
