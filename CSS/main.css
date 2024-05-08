@@ -470,7 +470,7 @@ main {
     margin-bottom: 8px;
 }
 
-@media  (max-width: 900px) {
+@media all and (max-width: 900px) {
     .main-uslugi {
         flex-direction: column;
     }
@@ -480,7 +480,7 @@ main {
     }
 }
 
-@media  (max-width: 600px) {
+@media all and (max-width: 600px) {
 
     .header-block{
         padding: 10px 10px 10px 0;
@@ -509,7 +509,7 @@ main {
     }
 }
 
-@media (max-width: 900px) {
+@media all and (max-width: 900px) {
     .kontakt {
         padding-left: 24px;
         padding-right: 24px;
