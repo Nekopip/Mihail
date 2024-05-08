@@ -469,6 +469,9 @@ main {
 
 @media all and (max-width: 900px) {
 
+    .kontakt_text p {
+        padding: 0;
+    }
 
     .kontakt_text {
         flex-basis: 100%;
@@ -540,5 +543,6 @@ main {
     }
     .kontakt_text p {
         font-size: 20px;
+        padding: 0;
     }
 }
