@@ -6,14 +6,15 @@
     <link rel="stylesheet" href="CSS/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
           rel="stylesheet">
+    <link rel="stylesheet" href="CSS/test.css">
 </head>
 <body>
 <header class="header">
     <div class="header-block">
         <div></div>
-        <div class="header_logo">
-            <img src="img/emg.png"/>
-            <p>Bodia</p>
+        <div  class="header_logo">
+            <img onclick="document.location='main.html'" src="img/emg.png"/>
+            <p onclick="document.location='main.html'">Bodia</p>
         </div>
         <p>+48 883 123 296</p>
     </div>
@@ -80,65 +81,93 @@
         </div>
 
 
-            <div class="main-uslugi">
+        <section class="main-uslugi-section">
             <h2>NASZE USŁUGI REMONTOWE OBEJMUJĄ:
                 <span></span>
             </h2>
-            <div class="main-uslugi-block">
-                <button class="bg_40_1">
-                    <div class="bg_40_1_image"></div>
+            <div class="main-uslugi">
+
+                <!--  1 Ряд кнопок  -->
+
+                <button onclick="document.location='Malowanie.html'" class="bg_40_1">
+                    <div class="bg_40_1_image_Malowanie"></div>
                     <div class="bg_40_1_background"></div>
-                        <p>Malowanie
+                    <p>Malowanie
                         <span class="imageMarked"></span>
-                        </p>
+                    </p>
                 </button>
-                <button class="bg_20">
+
+                <button onclick="document.location='Płytki.html'" class="bg_20">
+                    <div class="bg_40_1_image_Płytki"></div>
+                    <div class="bg_40_1_background"></div>
                     <p>Płytki
                         <span class="imageMarked"></span>
                     </p>
                 </button>
-                <button class="bg_40_2">
+
+                <button onclick="document.location='Podłogi.html'" class="bg_40_2">
+                    <div class="bg_40_1_image_Podłogi"></div>
+                    <div class="bg_40_1_background"></div>
                     <p>Podłogi
                         <span class="imageMarked"></span>
                     </p>
                 </button>
-            </div>
-            <div class="main-uslugi-block1">
-                <button class="bg_40_1">
+
+                <!--  2 Ряд кнопок  -->
+
+                <button onclick="document.location='Hydraulika.html'" class="bg_40_1_blok2">
+                    <div class="bg_40_1_image_Hydraulika"></div>
+                    <div class="bg_40_1_background"></div>
                     <p>Hydraulika
                         <span class="imageMarked"></span>
                     </p>
                 </button>
-                <button class="bg_40_2">
+
+                <button onclick="document.location='Gładzie.html'" class="bg_20_blok2">
+                    <div class="bg_40_1_image_Gładzie"></div>
+                    <div class="bg_40_1_background"></div>
                     <p>Gładzie
                         <span class="imageMarked"></span>
                     </p>
                 </button>
-                <button class="bg_20">
+
+                <button onclick="document.location='Tynki dekoracyjne.html'" class="bg_40_2_blok2">
+                    <div class="bg_40_1_image_Tynki_dekoracyjne"></div>
+                    <div class="bg_40_1_background"></div>
                     <p>Tynki dekoracyjne
                         <span class="imageMarked"></span>
                     </p>
                 </button>
-            </div>
-            <div class="main-uslugi-block2">
-                <button class="bg_20">
+
+
+                <!--  3 Ряд кнопок  -->
+
+                <button onclick="document.location='Regipsy.html'" class="bg_20_blok3">
+                    <div class="bg_40_1_image_Regipsy"></div>
+                    <div class="bg_40_1_background"></div>
                     <p>Regipsy
                         <span class="imageMarked"></span>
                     </p>
                 </button>
-                <button class="bg_40_1">
+
+                <button onclick="document.location='Sufity podwieszane.html'" class="bg_40_1_blok3">
+                    <div class="bg_40_1_image_Sufity_podwieszane"></div>
+                    <div class="bg_40_1_background"></div>
                     <p>Sufity podwieszane
                         <span class="imageMarked"></span>
                     </p>
                 </button>
-                <button class="bg_40_2">
+
+                <button onclick="document.location='Instalacje elektryczne.html'" class="bg_40_2_blok3">
+                    <div class="bg_40_1_image_Instalacje_elektryczne"></div>
+                    <div class="bg_40_1_background"></div>
                     <p>Instalacje elektryczne
                         <span class="imageMarked"></span>
                     </p>
                 </button>
 
             </div>
-        </div>
+        </section>
 
 
         <div class="wrapper_slider">

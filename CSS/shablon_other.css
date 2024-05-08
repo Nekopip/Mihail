@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 header {
@@ -8,7 +9,7 @@ header {
 }
 
 .header-block {
-    width: 98%;
+    width: 100%;
     padding: 10px 50px 10px 0;
     background: #28282A;
     display: flex;
@@ -28,10 +29,15 @@ header {
     color: #fff;
 }
 
+.header_logo p {
+    cursor: pointer;
+}
+
 .header_logo img {
     border-radius: 15px;
     height: 50px;
     width: 50px;
+    cursor: pointer;
 }
 
 .header-block > p {
@@ -48,6 +54,7 @@ main {
 }
 
 .wrapper-main {
+    width: 100%;
     max-width: 1200px;
     padding: 80px 0 80px 0;
     display: flex;
@@ -74,9 +81,11 @@ main {
     margin-bottom: 8px;
 }
 
+
+
 .footer {
     width: 100%;
-    height: 200px;
+    padding-bottom: 30px;
     background: rgba(247, 255, 243, 0.47);
     display: flex;
     column-gap: 100px;
@@ -85,8 +94,6 @@ main {
 
 .footer > div {
     padding: 40px 0 0 40px;
-    width: 20%;
-
 }
 
 .footer p {
@@ -130,3 +137,52 @@ main {
     background: #A6B6A9;
     margin-bottom: 8px;
 }
+
+
+.container {
+    padding: 20px;
+    padding-top: 40px;
+}
+
+#gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap:20px;
+}
+ .photo-img{
+    height: 44vh;
+}
+.photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .header-block{
+        padding: 10px 10px 10px 0;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .header-block .header_logo{
+        padding: 0;
+    }
+    .photo-img{
+        height: 34vh;
+    }
+    .footer {
+        flex-direction: column;
+    }
+    figcaption{
+        font-size: 0.8em;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .photo-img{
+        height: 25vh;
+    }
+}
+

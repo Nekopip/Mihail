@@ -1,0 +1,4 @@
+cd d:/bodia_pl
+git commit -m "slider test"
+git add .
+git push

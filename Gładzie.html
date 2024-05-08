@@ -6,14 +6,15 @@
     <link rel="stylesheet" href="CSS/shablon_other.css">
     <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
           rel="stylesheet">
+    <link href="CSS/lightbox.min.css" rel="stylesheet">
 </head>
 <body>
 <header class="header">
     <div class="header-block">
         <div></div>
         <div class="header_logo">
-            <img src="img/emg.png"/>
-            <p>Bodia</p>
+            <img onclick="document.location='main.html'" src="img/emg.png"/>
+            <p onclick="document.location='main.html'" >Bodia</p>
         </div>
         <p>+48 883 123 296</p>
     </div>
@@ -25,6 +26,33 @@
         <h2>Gładzie
             <span></span>
         </h2>
+
+
+
+        <div class="container">
+            <div id="gallery">
+
+                <figure class="photo">
+                    <a class=" photo-img" href="img/Gladzie/Gładzie%201.jpg" data-lightbox="roadtrip"> <img  class="photo-img" src="img/Gladzie/Gładzie%201.jpg" alt="Пам'ятник Борцям за волю України"></a>
+                    <figcaption>Пам'ятник Борцям за волю України</figcaption>
+                </figure>
+                <figure class="photo">
+                    <a  href="img/Gladzie/Gładzie%202.jpg" data-lightbox="roadtrip"> <img src="img/Gladzie/Gładzie%202.jpg" class="photo-img" alt="Пам'ятник Василю Симоненку"></a>
+                    <figcaption>Пам'ятник Василю Симоненку</figcaption>
+                </figure>
+                <figure class="photo">
+                    <a  href="img/Gladzie/Gładzie%203.jpg" data-lightbox="roadtrip"> <img  class="photo-img" src="img/Gladzie/Gładzie%203.jpg" alt="Пам'ятник Василю Симоненку"></a>
+                    <figcaption>Пам'ятник Василю Симоненку</figcaption>
+                </figure>
+                <figure class="photo">
+                    <a  href="img/Gladzie/Gładzie%204.jpg" data-lightbox="roadtrip"> <img  class="photo-img" src="img/Gladzie/Gładzie%204.jpg" alt="Пам'ятник Василю Симоненку"></a>
+                    <figcaption>Пам'ятник Василю Симоненку</figcaption>
+                </figure>
+
+            </div>
+            <script src="./js/lightbox-plus-jquery.min.js"></script>
+
+        </div>
 
     </div>
 

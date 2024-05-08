@@ -1,0 +1,357 @@
+.main-uslugi-section h2 {
+    font-family: Roboto Condensed;
+    font-size: 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-uslugi-section h2 span {
+    display: block;
+    width: 48px;
+    height: 3px;
+    background: #A6B6A9;
+    margin-top: 8px;
+}
+
+.main-uslugi-section {
+    padding: 80px 20px 80px 20px;
+}
+
+.main-uslugi{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-uslugi-section h2 {
+    padding: 0 0 40px;
+}
+
+.bg_20,
+.bg_40_1,
+.bg_40_2,
+.bg_40_1_blok2,
+.bg_40_2_blok2,
+.bg_20_blok2,
+.bg_40_1_blok3,
+.bg_40_2_blok3,
+.bg_20_blok3
+{
+    width: 40%;
+    border: 2px solid #fff;
+    height: 50vh;
+    position: relative;
+    cursor: pointer;
+}
+
+.bg_20,
+.bg_20_blok2,
+.bg_20_blok3 {
+    width: 20%;
+}
+
+/*    malowanie 1 кнопка   */
+
+.bg_40_1 .bg_40_1_image_Malowanie{
+    position: absolute;
+    inset: 0px;
+    background-size: cover;
+    background-position: center 40%;
+    background-image: url("/img/Malowanie/malowanie.png");
+}
+
+.bg_40_1 .bg_40_1_background{
+    inset: 0;
+    background-color: black;
+    opacity: 50%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: opacity 500ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+.main-uslugi .bg_40_1:hover .bg_40_1_background{
+    opacity: 0;
+    transition: opacity 500ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+/*   malowanie 1 кнопка   */
+
+
+
+/*    Płytki 2 кнопка   */
+
+.bg_20 .bg_40_1_image_Płytki{
+    position: absolute;
+    inset: 0px;
+    background-size: cover;
+    background-position: center 40%;
+    background-image: url("/img/Plutki/Plytki.png");
+}
+
+.bg_20 .bg_40_1_background{
+    inset: 0;
+    background-color: black;
+    opacity: 50%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: opacity 500ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+.main-uslugi .bg_20:hover .bg_40_1_background{
+    opacity: 0;
+    transition: opacity 500ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+/*   Płytki 2 кнопка   */
+
+
+
+
+/*    Płytki 2 кнопка   */
+
+.bg_20 .bg_40_1_image_Płytki{
+    position: absolute;
+    inset: 0px;
+    background-size: cover;
+    background-position: center 40%;
+    background-image: url("/img/Plutki/Plytki.png");
+}
+
+.bg_20 .bg_40_1_background{
+    inset: 0;
+    background-color: black;
+    opacity: 50%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: opacity 500ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+.main-uslugi .bg_20:hover .bg_40_1_background{
+    opacity: 0;
+    transition: opacity 500ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+/*   Płytki 2 кнопка   */
+
+
+
+
+
+/*    Podłogi 3 кнопка   */
+
+.bg_40_2 .bg_40_1_image_Podłogi{
+    position: absolute;
+    inset: 0px;
+    background-size: cover;
+    background-position: center 40%;
+    background-image: url("/img/Podlogi/Podlogi.png");
+}
+
+.bg_40_2 .bg_40_1_background{
+    inset: 0;
+    background-color: black;
+    opacity: 50%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: opacity 500ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+.main-uslugi .bg_40_2:hover .bg_40_1_background{
+    opacity: 0;
+    transition: opacity 500ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+/*   Podłogi 3 кнопка   */
+
+
+
+
+/*    Hydraulika 4 кнопка   */
+
+.bg_40_1_blok2 .bg_40_1_image_Hydraulika{
+    position: absolute;
+    inset: 0px;
+    background-size: cover;
+    background-position: center 40%;
+    background-image: url("/img/Hydraulika/Hydraulika.png");
+}
+
+.bg_40_1_blok2 .bg_40_1_background{
+    inset: 0;
+    background-color: black;
+    opacity: 50%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: opacity 500ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+.main-uslugi .bg_40_1_blok2:hover .bg_40_1_background{
+    opacity: 0;
+    transition: opacity 500ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+/*   Hydraulika 4 кнопка   */
+
+
+
+
+/*    Gładzie 5 кнопка   */
+
+.bg_20_blok2 .bg_40_1_image_Gładzie{
+    position: absolute;
+    inset: 0px;
+    background-size: cover;
+    background-position: center 40%;
+    background-image: url("/img/Gladzie/Gładzie.png");
+}
+
+.bg_20_blok2 .bg_40_1_background{
+    inset: 0;
+    background-color: black;
+    opacity: 50%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: opacity 500ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+.main-uslugi .bg_20_blok2:hover .bg_40_1_background{
+    opacity: 0;
+    transition: opacity 500ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+/*   Gładzie 5 кнопка   */
+
+
+
+
+/*    Tynki dekoracyjne 6 кнопка   */
+
+.bg_40_2_blok2 .bg_40_1_image_Tynki_dekoracyjne{
+    position: absolute;
+    inset: 0px;
+    background-size: cover;
+    background-position: center 40%;
+    background-image: url("/img/Tynki dekoracyjne/Tynki dekoracyjne.png");
+}
+
+.bg_40_2_blok2 .bg_40_1_background{
+    inset: 0;
+    background-color: black;
+    opacity: 50%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: opacity 500ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+.main-uslugi .bg_40_2_blok2:hover .bg_40_1_background{
+    opacity: 0;
+    transition: opacity 500ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+/*   Tynki dekoracyjne 6 кнопка   */
+
+
+
+
+/*    Regipsy 7 кнопка   */
+
+.bg_20_blok3 .bg_40_1_image_Regipsy{
+    position: absolute;
+    inset: 0px;
+    background-size: cover;
+    background-position: center 40%;
+    background-image: url("/img/Regipsy/regips.jpg");
+}
+
+.bg_20_blok3 .bg_40_1_background{
+    inset: 0;
+    background-color: black;
+    opacity: 50%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: opacity 500ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+.main-uslugi .bg_20_blok3:hover .bg_40_1_background{
+    opacity: 0;
+    transition: opacity 500ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+/*   Regipsy 7 кнопка   */
+
+
+
+
+/*    Regipsy 7 кнопка   */
+
+.bg_40_1_blok3 .bg_40_1_image_Sufity_podwieszane{
+    position: absolute;
+    inset: 0px;
+    background-size: cover;
+    background-position: center 40%;
+    background-image: url("/img/Sufity Podwieszane/Sufity Podwieszane.jpg");
+}
+
+.bg_40_1_blok3 .bg_40_1_background{
+    inset: 0;
+    background-color: black;
+    opacity: 50%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: opacity 500ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+.main-uslugi .bg_40_1_blok3:hover .bg_40_1_background{
+    opacity: 0;
+    transition: opacity 500ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+/*   Regipsy 7 кнопка   */
+
+
+
+
+/*    Regipsy 7 кнопка   */
+
+.bg_40_2_blok3 .bg_40_1_image_Instalacje_elektryczne{
+    position: absolute;
+    inset: 0px;
+    background-size: cover;
+    background-position: center 40%;
+    background-image: url("/img/Instalacje elektryczne/Instalacje elektryczne.jpg");
+}
+
+.bg_40_2_blok3 .bg_40_1_background{
+    inset: 0;
+    background-color: black;
+    opacity: 50%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: opacity 500ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+.main-uslugi .bg_40_2_blok3:hover .bg_40_1_background{
+    opacity: 0;
+    transition: opacity 500ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+/*   Regipsy 7 кнопка   */
+
+
+button p .imageMarked {
+    height: 3px;
+    width: 28px;
+    background: #A6B6A9;
+    position: absolute;
+    bottom: -2px;
+    left: calc(50% - 16px);
+    transition: 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+.main-uslugi p {
+    font-family: Roboto Condensed, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    position: relative;
+    padding: 16px 32px 14px;
+    font-weight: bold;
+    background-color: rgba(255,255,255,0.6);
+}
