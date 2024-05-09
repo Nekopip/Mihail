@@ -44,7 +44,7 @@ header {
     cursor: pointer;
 }
 
-.header-block > p {
+.header-block .text_header {
     font-family: Righteous;
     font-size: 20px;
     color: #fff;
