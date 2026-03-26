@@ -6,12 +6,22 @@
 }
 
 header {
+    position: relative;
     width: 100%;
     height: 635px;
-    background: url("../img/background.webp") center;
-    background-size: cover;
-
+    overflow: hidden;
 }
+
+.header-bg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* как background-size: cover */
+    z-index: -1;
+    top: 79px;
+}
+
 
 .header-block {
     width: 100%;
@@ -485,12 +495,8 @@ main {
         display: none;
     }
 
-    .main-uslugi {
-        flex-direction: column;
-    }
-
     .main-uslugi button {
-        width: 100%;
+        width: 50%;
     }
 }
 
