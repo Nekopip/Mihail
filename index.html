@@ -6,6 +6,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="format-detection" content="address=no">
     <title>bodia_pl - Tworzymy Przestrzeń Marzeń - remonty wnętrz</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css">
     <link rel="icon" href="/img/emg.ico" type="image/x-icon">
     <link rel="stylesheet" href="CSS/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
@@ -177,28 +178,34 @@
 
         <div class="wrapper_slider">
 
-            <h2>
-                NASZ PROJEKT
+            <h2> NASZE PROJEKTY
                 <span></span>
             </h2>
 
-            <div class="slider">
-                <div class="slider__item">
-                    <img src="img/Slider/img_1.jpg">
-                </div>
-                <div class="slider__item">
-                    <img src="img/Slider/img_2.jpg">
-                </div>
-                <div class="slider__item">
-                    <img src="img/Slider/img_4.jpg">
-                </div>
-                <div class="slider__item">
-                    <img src="img/Slider/img_3.jpg">
-                </div>
-                <div class="slider__item">
-                    <img src="img/Slider/img_5.jpg">
-                </div>
-            </div>
+            <div class="gallery-grid">
+
+                <!-- Карточка №1 -->
+                <a data-fancybox="gal1" href="img/Slider/gal1-1.jpg" class="gallery-item">
+                    <img src="img/Slider/gal1-1.jpg" alt="">
+                </a>
+                <a data-fancybox="gal1" href="img/Slider/gal1-2.jpg" class="hidden-fb"></a>
+                <a data-fancybox="gal1" href="img/Slider/gal1-3.jpg" class="hidden-fb"></a>
+
+                <!-- Карточка №2 -->
+                <a data-fancybox="gal2" href="img/Slider/gal2-1.jpg" class="gallery-item">
+                    <img src="img/Slider/gal2-1.jpg" alt="">
+                </a>
+                <a data-fancybox="gal2" href="img/Slider/gal2-2.jpg" class="hidden-fb"></a>
+                <a data-fancybox="gal2" href="img/Slider/gal2-3.jpg" class="hidden-fb"></a>
+
+                <!-- Карточка №3 -->
+                <a data-fancybox="gal3" href="img/Slider/gal3-1.jpg" class="gallery-item">
+                    <img src="img/Slider/gal3-1.jpg" alt="">
+                </a>
+                <a data-fancybox="gal3" href="img/Slider/gal3-2.jpg" class="hidden-fb"></a>
+                <a data-fancybox="gal3" href="img/Slider/gal3-3.jpg" class="hidden-fb"></a>
+
+        </div>
         </div>
 
         <div class="kontakt">
@@ -243,6 +250,8 @@
         </span>
     </div>
 </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
 
 <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
 

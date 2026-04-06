@@ -206,7 +206,7 @@ main {
 }
 
 .wrapper_slider {
-    padding-bottom: 80px;
+    padding-bottom: 150px;
 }
 
 .wrapper_slider h2 {
@@ -226,139 +226,48 @@ main {
     margin-top: 8px;
 }
 
-.slider {
-    position: relative;
-    padding: 0 30px;
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
 
-.slider__item {
-    text-align: center;
-    opacity: 0.4;
-    transition: all 0.3s ease 0s;
-}
-
-.slider__item.slick-center {
-    opacity: 1;
-}
-
-.slider .slick-arrow {
-    position: absolute;
-    top: 50%;
-    margin: -30px 0 0 0;
-    z-index: 4;
-    font-size: 0;
-    width: 20px;
-    height: 40px;
-}
-
-.slider .slick-arrow.slick-prev {
-    left: 0;
-    background: url("/img/Slider/sl-arrow_l.svg") 0 0 / 100% no-repeat;
-}
-
-.slider .slick-arrow.slick-next {
-    right: 0;
-    background: url("/img/Slider/sl-arrow_r.svg") 0 0 / 100% no-repeat;
-}
-
-.slider .slick-dots {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.slider .slick-dots li {
-    list-style: none;
-    margin: 0 10px;
-}
-
-.slider .slick-dots li button {
-    font-size: 0;
-    width: 10px;
-    height: 10px;
-    background-color: black;
-    border-radius: 50%;
-}
-
-.slider .slick-dots li.slick-active button {
-    background-color: transparent;
-    border: 2px solid black;
-}
-
-/* Слайдер */
-.slick-slider {
-    min-width: 0;
-}
-
-/* Слайдер запущений */
-.slick-slider.slick-initialized {
-}
-
-/* Слайдер з крапками */
-.slick-slider.slick-dotted {
-}
-
-/* Обмежувальна оболонка */
-.slick-list {
+.gallery-item {
+    display: block;
     overflow: hidden;
+    border-radius: 12px;
+    cursor: pointer;
+    width: 100%;
 }
 
-/* Стрічка слайдів */
-.slick-track {
-    display: flex;
-    align-items: flex-start;
+.gallery-item img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    transition: transform .3s ease, opacity .3s ease;
 }
 
-/* Слайд */
-.slick-slide {
-
+.gallery-item:hover img {
+    transform: scale(1.05);
+    opacity: .85;
 }
 
-/* Слайд активний (показується) */
-.slick-slide.slick-active {
+.hidden-fb{
+    display: none;
 }
 
-/* Слайд основний */
-.slick-slide.slick-current {
+
+/* Адаптив */
+@media all and (max-width: 768px) {
+    .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
-/* Слайд по центру */
-.slick-slide.slick-center {
-}
-
-/* Клонований слайд */
-.slick-slide.slick-cloned {
-}
-
-/* Стрілка */
-.slick-arrow {
-}
-
-/* Стрілка вліво */
-.slick-arrow.slick-prev {
-}
-
-/* Стрілка вправо */
-.slick-arrow.slick-next {
-}
-
-/* Стрілка не активна */
-.slick-arrow.slick-disabled {
-}
-
-/* Точки (буліти) */
-.slick-dots {
-}
-
-.slick-dots li {
-}
-
-/* Активна точка */
-.slick-dots li.slick-active {
-}
-
-/* Елемент точки */
-.slick-dots li button {
+@media all and (max-width: 480px) {
+    .gallery-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 .kontakt {
@@ -507,6 +416,10 @@ main {
 }
 
 @media all and (max-width: 900px) {
+
+    .wrapper_slider {
+        padding-bottom: 80px;
+    }
 
     .kontakt_text p {
         padding: 0;
